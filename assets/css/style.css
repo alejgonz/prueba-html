@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header.main {
+	background: url(../images/hero.jpeg) no-repeat;
+	background-size: cover;
+}
+
+header.main nav,
+header.main nav::before,
+header.main nav::after {
+	clear: both;
+}
+
+header.main nav a .logo {
+	width: 200px;
+}
+
+header.main nav .navigation {
+	float: right;
+	margin-top: 10px;
+}
+
+header.main nav .navigation li {
+	display: inline;
+	margin: 0 10px;
+}
+
+header.main nav .navigation li a {
+	font-size: 1.5rem;
+}
+
+
+header div.footer_header h2  {
+	text-align: center;
+
+}
+
+
+section.contenido01 h4 {
+	color:green ;
+	
+}
+
+section.container .contendio1 .subt3 h4 {
+	color: green;
+	text-align: center;
+}
+		
+
+section.contenido01 p {
+	text-align: center;
+	
+}
+
+section.contenido02 {
+	color: grey;
+}
+
+section.contenido02 .columnas3{
+	display: inline-block;
+	margin: 10px 0;
+}
+
+
+}
+
+footer.main {
+	background-color: #62c462;
+	color: white;
+	padding: 20px;
+}
+
+
+/*MEDIA QUERY PARA SMARTPHONES*/
+
+/* XS Size */
+@media screen and (max-width: 767px) {
+	header.main nav a .logo {
+		width: 150px;
+	}
+}
+
+/* SM Size */
+@media screen and (max-width: 992px) {
+	
+}
+
+
+/* MD Size */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* LG Size */
+@media screen and (min-width: 1200px) {
+
+}
